@@ -1,0 +1,67 @@
+Creating a story map for the mobile app component of the Remote Deposit Capture system involves structuring the features and user interactions in a logical sequence. Here’s how we can outline it:
+
+### Story Map for Remote Deposit Capture Mobile App
+
+#### 1. **Login and Authentication**
+   - **User Story:** As a Blue Bank customer, I want to securely log in to the mobile app using my internet portal credentials or other authentication methods.
+   - **Tasks:**
+     - Design login screen with username/password fields.
+     - Implement authentication flow with backend services.
+
+#### 2. **Account Overview**
+   - **User Story:** As a Blue Bank customer, I want to view the balance of my accounts from within the mobile app.
+   - **Tasks:**
+     - Design account overview screen.
+     - Integrate API to fetch account balances.
+     - Display balances in a clear and user-friendly manner.
+
+#### 3. **Deposit Checks**
+   - **User Story:** As a Blue Bank customer, I want to deposit checks using the mobile app.
+   - **Tasks:**
+     - Design check deposit feature.
+     - Implement camera integration for capturing check images (front and back).
+     - Validate check images for security and clarity.
+     - Allow user to enter check details (amount, account to deposit).
+     - Verify check details against the check image.
+
+#### 4. **Transaction Confirmation**
+   - **User Story:** As a Blue Bank customer, I want to receive confirmation of successful check deposits.
+   - **Tasks:**
+     - Design confirmation screen.
+     - Display transaction details (amount deposited, account credited).
+     - Provide feedback on successful or failed deposit attempts.
+
+#### 5. **Settings and Preferences**
+   - **User Story:** As a Blue Bank customer, I want to manage my app settings and preferences.
+   - **Tasks:**
+     - Design settings screen.
+     - Allow user to update personal information (contact details, security preferences).
+     - Provide options for app notifications and alerts.
+
+#### 6. **Promotions and Offers**
+   - **User Story:** As a Blue Bank customer, I want to receive notifications about new offers and promotions.
+   - **Tasks:**
+     - Design promotions screen.
+     - Integrate with backend to fetch and display promotional content.
+     - Allow user to opt-in or opt-out of promotional notifications.
+
+#### 7. **Help and Support**
+   - **User Story:** As a Blue Bank customer, I want easy access to help and support resources.
+   - **Tasks:**
+     - Design help and support screen.
+     - Provide FAQs, troubleshooting tips, and contact information.
+     - Implement chatbot or support ticket system integration for direct assistance.
+
+### Implementation Strategy
+- **Agile Development Approach:** 
+  - Conduct sprint planning sessions focusing on key features and tasks.
+  - Use iterative development to refine features based on user feedback.
+  - Implement automated testing and continuous integration to ensure quality and reliability.
+
+- **UX Design Considerations:**
+  - Prioritize intuitive navigation and user-friendly interfaces.
+  - Conduct usability testing to validate design choices and enhance user experience.
+  - Ensure compliance with security standards for handling sensitive financial transactions.
+
+### Conclusion
+This story map outlines the essential features and user interactions for the Remote Deposit Capture mobile app, ensuring a structured approach to development that aligns with Blue Bank’s goals of customer convenience, security, and operational efficiency.
